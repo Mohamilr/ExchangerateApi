@@ -1,0 +1,41 @@
+{
+  "name": "exchangerateapi",
+  "version": "1.0.0",
+  "description": "foreign exchange rate api with currency conversion",
+  "main": "server.js",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "jest --testTimeout=10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamilr/ExchangerateApi.git"
+  },
+  "keywords": [
+    "foreign",
+    "exchange"
+  ],
+  "author": "Mohammed ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mohamilr/ExchangerateApi/issues"
+  },
+  "homepage": "https://github.com/Mohamilr/ExchangerateApi#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}
