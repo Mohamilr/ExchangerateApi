@@ -4,5 +4,5 @@ The Api fetches currency exchange rates integrating the [exchange rate api](http
 
 ## Endpoint 
 ### Get
-As an example, a request to fetch the currency exchange rates from `CZK` to `EUR,GBP,USD`  might look like:
-https://enye-user-profiles.herokuapp.com/api/rates?base=CZK&currency=EUR,GBP,USD
+As an example, a request to fetch the currency exchange rates from `CZK` to `EUR,GBP,USD`  will look like:
+https://enye-exchangerate-api.herokuapp.com/api/rates?base=CZK&currency=EUR,GBP,USD
