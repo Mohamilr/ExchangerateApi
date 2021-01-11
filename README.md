@@ -8,6 +8,7 @@ As an example, a request to fetch the currency exchange rates from `CZK` to `EUR
 https://enye-exchangerate-api.herokuapp.com/api/rates?base=CZK&currency=EUR,GBP,USD
 
 ### Response
+```
 {
     "results": {
         "base": "CZK",
@@ -19,3 +20,4 @@ https://enye-exchangerate-api.herokuapp.com/api/rates?base=CZK&currency=EUR,GBP,
         }
     }
 }
+```
